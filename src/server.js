@@ -1,3 +1,7 @@
 const app = require("./app");
 
-app.listen(3333);
+const port = 3331
+
+app.listen(port, () => {
+    console.log(`🚀back-end started! On port: ${port}  `)
+})
